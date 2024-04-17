@@ -8,11 +8,7 @@ public class Calculator {
     }
 
     public static boolean isEven(int x) {
-        if (x % 2 == 1) {
-            return false;
-        } else {
-            return true;
-        }
+        return x % 2 != 1;
     }
 
     public static int multiply(int x, int y) {
